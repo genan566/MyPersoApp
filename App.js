@@ -20,13 +20,21 @@ export class App extends Component {
         }}
 
       >
-        {/* <Marker
+        <Marker
           coordinate={{
-            latitude: 6.375829483928168,
-            longitude: 2.4032064201127614
+            latitude: 37.3317876,
+            longitude: -122.0054812,
           }}
         >
-        </Marker> */}
+        </Marker>
+
+        <Marker
+          coordinate={{
+            latitude: 37.771707,
+            longitude: -122.4053769,
+          }}
+        >
+        </Marker>
 
         <MapViewDirections
           origin={{
@@ -38,6 +46,9 @@ export class App extends Component {
             latitude: 37.771707,
             longitude: -122.4053769,
           }}
+
+          // strokeWidth={2}
+          // strokeColor="hotPink"
 
           apikey={"AIzaSyC_WIqW9HZg0aQERIjf71TSjhuBkg7jduE"}
         />
